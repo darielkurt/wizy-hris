@@ -1,0 +1,65 @@
+.employee-details {
+  background: #ffffff;
+  padding-bottom: 160px;
+  height: 100%;
+  overflow: scroll;
+  background: #f9fafb;
+
+  .ed-item-wrapper {
+    border: 1px solid #d8d8d8;
+    background: white;
+    border-radius: 4px;
+    margin: 60px 200px;
+    width: 80%;
+    padding-bottom: 40px;
+
+    .ed-label {
+      margin: 40px 120px 20px;
+      color: #5068eeb6;
+    }
+
+    .ed-info {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      padding: 0 20px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+      
+      h3 {
+        color: rgb(107, 107, 107);
+        // display: grid;
+        // grid-template-columns: 1fr 1fr;
+        // width: 500px;
+      }
+      .ed-value {
+        color: rgb(0, 0, 0);
+        margin-left: 8px;
+        font-weight: 400;
+      }
+    }
+
+    h2 {
+      margin-left: 20px;
+    }
+  }
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-self: center;
+  padding-top: 20%;
+  background: #f9fafb;
+
+  .loading-text {
+    height: 100%;
+    top: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(179, 179, 179);
+  }
+}

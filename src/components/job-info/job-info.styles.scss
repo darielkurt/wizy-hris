@@ -1,0 +1,23 @@
+.job-info {
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    margin: 20px;
+    background: #ffffff;
+    padding-bottom: 50px;
+  
+    .job-info-label {
+      margin: 40px 120px 20px;
+    }
+  
+    .job-form-area {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    h2 {
+      margin-left: 20px;
+    }
+  }
+  

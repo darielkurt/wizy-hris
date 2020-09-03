@@ -1,0 +1,58 @@
+.dashboard {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #f7fafc;
+
+  .dashboard-area {
+    padding: 100px;
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1.4fr 2fr 2fr;
+    // background: grey;
+
+    .employee-count {
+      padding-bottom: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid #d8d8d8;
+      border-radius: 4px;
+      background: white;
+
+      .count-view-employee {
+        font-weight: 400;
+        color: #8cabff;
+      }
+
+      .count-text {
+        font-size: 36px;
+        font-weight: 100;
+        color: grey;
+      }
+    }
+    .new-employees {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid #d8d8d8;
+      border-radius: 4px;
+      background: white;
+    }
+    
+    .employee-celebrations {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid #d8d8d8;
+      border-radius: 4px;
+      background: white;
+
+      .celeb-emoji {
+        margin-top: 20px;
+      }
+    }
+  }
+}

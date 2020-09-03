@@ -1,0 +1,27 @@
+.emergency-info {
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    margin: 20px;
+    background: #ffffff;
+    padding-bottom: 50px;
+  
+    .emergency-info-label {
+      margin: 40px 120px 20px;
+    }
+  
+    .emergency-form-area {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      
+      :last-child {
+        margin: 0 auto;
+      }
+    }
+  
+    h2 {
+      margin-left: 20px;
+    }
+  }
+  

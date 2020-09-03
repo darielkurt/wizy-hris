@@ -1,0 +1,48 @@
+.employee {
+  // margin-top: 20px;
+  border-bottom: 1px solid #ebebeb;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  &:hover {
+    background: rgb(248, 248, 248);
+    cursor: pointer;
+  }
+
+  .employee-pic {
+    height: 70px;
+    width: 70px;
+    background: #ebebeb;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+
+    // .pic-kunyari {
+    //     font-size: 80px;
+    //     color: white;
+    // }
+  }
+
+  .employee-deets {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr 1.1fr 0.8fr;
+    width: 80%;
+    align-items: center;
+    padding-left: 20px;
+    text-decoration: none;
+  }
+
+  .employee-option {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+
+      .edit-button {
+          background: black;
+          color: white;
+      }
+  }
+}

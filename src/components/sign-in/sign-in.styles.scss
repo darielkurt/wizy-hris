@@ -1,0 +1,27 @@
+.sign-in {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 120px auto;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  align-items: center;
+  padding: 40px 60px;
+
+  h2 {
+    color: rgb(119, 133, 255);
+  }
+
+  .sign-in-form {
+    margin: 60px 0;
+  }
+
+  .title {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,12 @@
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+
+  .menu-text {
+    color: #6277eb;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+  }
+}

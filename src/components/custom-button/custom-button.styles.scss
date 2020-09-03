@@ -1,0 +1,140 @@
+.add-employee-button {
+  min-width: 30px;
+  width: auto;
+  height: 40px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  padding: 10px 25px;
+  font-size: 12px;
+  color: rgb(120, 218, 136);
+  background: rgb(241, 255, 244);
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  transition: all 120ms ease-in-out;
+
+  &:hover {
+    color: rgb(0, 173, 52);
+  }
+}
+
+.edit-employee-button {
+  min-width: 30px;
+  width: auto;
+  height: 40px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  padding: 10px 25px;
+  font-size: 12px;
+  color: rgb(165, 163, 255);
+  background: rgb(224, 226, 255);
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  transition: all 120ms ease-in-out;
+
+  &:hover {
+    color: rgb(53, 50, 255);
+  }
+}
+
+.delete-employee-button {
+  min-width: 30px;
+  width: auto;
+  height: 40px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  padding: 10px 25px;
+  font-size: 12px;
+  color: rgb(255, 154, 154);
+  background: rgb(255, 232, 232);
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  transition: all 120ms ease-in-out;
+  z-index: 999;
+
+  &:hover {
+    color: rgb(255, 36, 36);
+  }
+}
+
+.add-employee-form-button {
+  min-width: 30px;
+  width: 30%;
+  height: 60px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  padding: 20px 35px;
+  font-size: 20px;
+  color: rgb(120, 218, 136);
+  background: rgb(241, 255, 244);
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: 1px solid rgba(13, 146, 8, 0.493);
+  cursor: pointer;
+  transition: all 120ms ease-in-out;
+  align-self: center;
+  margin-top: 40px;
+
+  &:hover {
+    color: rgb(0, 173, 52);
+  }
+}
+
+.edit-employee-form-button {
+  min-width: 30px;
+  width: 30%;
+  height: 60px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  padding: 20px 35px;
+  font-size: 20px;
+  color: rgb(165, 163, 255);
+  background: rgb(224, 226, 255);
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: 1px solid rgb(145, 144, 253);
+  cursor: pointer;
+  transition: all 120ms ease-in-out;
+  margin-top: 40px;
+
+  &:hover {
+    color: rgb(108, 106, 255);
+  }
+}
+
+.siwg-button {
+  min-width: 30px;
+  width: auto;
+  height: 40px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  padding: 10px 25px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  background: rgb(119, 133, 255);
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  transition: all 120ms ease-in-out;
+  margin: 0 auto;
+
+  &:hover {
+    background: rgb(59, 79, 255);
+  }
+}
+
+.sign-in-submit {
+  display: none;
+}
